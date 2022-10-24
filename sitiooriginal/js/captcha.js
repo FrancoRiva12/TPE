@@ -19,14 +19,14 @@ function validarcaptcha() {
 
 
 
-    else if (formCaptcha.value === "4") {
+    else if (formCaptcha.value === "46") {
         respuesta.innerHTML = "Te has registrado correctamente. Pronto obtendras información adicional de MadeInArgentina.";
 
 
     }
 
     else {
-        respuesta.innerHTML = "Captcha incorrecto";
+        respuesta.innerHTML = "Captcha incorrecto, vuelva a intentarlo";
     }
 
 }
