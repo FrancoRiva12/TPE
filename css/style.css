@@ -32,8 +32,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
     background-color: black;
+    
 }
 
 .btn_menu a {
@@ -88,16 +89,7 @@ h1 {
     text-align: left;
 }
 
-.ranking {
-    padding: 10px;
-    margin: 15px;
-    width: 100%;
-    background-color: black;
-    font-size: 20px;
-    color: rgb(224, 92, 43);
-    text-decoration: none;
-    display: block;
-}
+
 
 .tablerecitales {
     display: block;
@@ -213,13 +205,17 @@ table {
     }
 
     .ranking {
+    
+        margin: 15px;
+        width: 100%;
         left: 650px;
         padding: 75px;
-        background-color: black;
+        background-color: rgb(49, 0, 49);
         font-size: 20px;
-        color: rgb(224, 92, 43);
+        color: rgb(224, 6, 72);
         text-decoration: none;
         position: absolute;
+        display: block;
     }
 
 
