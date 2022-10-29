@@ -14,7 +14,7 @@ btncaptcha.addEventListener("click", validarcaptcha);
 function validarcaptcha() {
 
     if (usuario.value === "" || email.value === "") {
-        respuesta.innerHTML = "Revise que el nombre y el email esten escritos.";
+        respuesta.innerHTML = "Revise que el nombre y el email esten escritos correctamente.";
     }
 
 
