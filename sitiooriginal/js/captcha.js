@@ -26,7 +26,8 @@ function validarcaptcha() {
     }
 
     else {
-        respuesta.innerHTML = "Captcha incorrecto, vuelva a intentarlo";
+        respuesta.innerHTML = "Captcha incorrecto";
     }
 
 }
+w
