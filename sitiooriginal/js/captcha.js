@@ -19,14 +19,15 @@ function validarcaptcha() {
 
 
 
-    else if (formCaptcha.value === "46") {
+    else if (formCaptcha.value === "45") {
         respuesta.innerHTML = "¡Te registraste correctamente! te agardecemos y estate atento que pronto hay información adicional en tu correo y en la página.";
 
 
     }
 
     else {
-        respuesta.innerHTML = "Captcha incorrecto, vuelva a intentarlo";
+        respuesta.innerHTML = "Captcha incorrecto";
     }
 
 }
+w
